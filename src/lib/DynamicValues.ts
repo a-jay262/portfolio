@@ -78,193 +78,81 @@ class DynamicValues {
     ];
 
     static skills: Array<ITitledListItem> = [
-        {
-            text: "Programming / Markup Languages",
-            arr: [
-                {
-                    title: 'C',
-                    logo: 'https://seeklogo.com/images/C/c-logo-672525892C-seeklogo.com.png',
-                },
-                {
-                    title: 'C++',
-                    logo: 'https://seeklogo.com/images/C/c-logo-1B1817C041-seeklogo.com.png',
-                },
-                {
-                    title: 'C#',
-                    logo: 'https://images.seeklogo.com/logo-png/36/1/c-sharp-c-logo-png_seeklogo-363285.png',
-                },
-                {
-                    title: 'Python',
-                    logo: 'https://www.vectorlogo.zone/logos/python/python-icon.svg',
-                },
-                {
-                    title: 'JavaScript',
-                    logo: 'https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg',
-                },
-                {
-                    title: 'HTML',
-                    logo: 'https://www.vectorlogo.zone/logos/w3_html5/w3_html5-icon.svg',
-                },
-                {
-                    title: 'CSS',
-                    logo: 'https://seeklogo.com/images/C/css3-logo-F1923C8D0E-seeklogo.com.png',
-                },
-                {
-                    title: 'TypeScript',
-                    logo: 'https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg',
-                },
-                {
-                    title: 'Dart',
-                    logo: 'https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg',
-                },
-            ]
-        },
-        {
-            text: "Databases",
-            arr: [
-                {
-                    title: 'MongoDB',
-                    logo: 'https://cdn.iconscout.com/icon/free/png-128/mongodb-3521676-2945120.png'
-                },
-                {
-                    title: 'SQL',
-                    logo: 'https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png',
-                },
-            ]
-        },
-        {
-            text: "UI Component Libraries",
-            arr: [
-                {
-                    title: 'Material-UI',
-                    logo: 'https://mui.com/static/logo.png'
-                },
-                {
-                    title: 'Tailwind CSS',
-                    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/512px-Tailwind_CSS_Logo.svg.png?20230715030042'
-                },
-                {
-                    title: 'Bootstrap',
-                    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png'
-                },
-            ]
-        },
-        {
-            text: "Libraries / Frameworks / Techs",
-            arr: [
-                {
-                    title: 'Android App Development',
-                    logo: 'https://www.vectorlogo.zone/logos/android/android-icon.svg'
-                },
-                {
-                    title: 'NodeJS',
-                    logo: 'https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg'
-                },
-                {
-                    title: 'ExpressJS',
-                    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2_RY4COV565Nju7b4ZI5tsPkJQT1imxdFXg&s'
-                },
-                {
-                    title: 'ReactJS',
-                    logo: 'https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg'
-                },
-                {
-                    title: 'Redux',
-                    logo: 'https://upload.wikimedia.org/wikipedia/commons/4/49/Redux.png'
-                },
-                {
-                    title: 'React Native',
-                    logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg'
-                },
-                {
-                    title: 'Mongoose',
-                    logo: 'https://avatars.githubusercontent.com/u/7552965?s=200&v=4'
-                },
-                {
-                    title: 'NextJS',
-                    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJPpa5L8BQWfwHOIFMaKr5GBWr-Voo7-_OLw&s'
-                },
-                {
-                    title: 'OpenCV',
-                    logo: 'https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg'
-                },
-                {
-                    title: 'Firebase',
-                    logo: 'https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg'
-                },
-                {
-                    title: 'Flutter',
-                    logo: 'https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg'
-                },
-                {
-                    title: 'Numpy',
-                    logo: 'https://numpy.org/images/logo.svg'
-                },
-                {
-                    title: 'Pandas',
-                    logo: 'https://pandas.pydata.org/static/img/pandas_white.svg'
-                },
-                {
-                    title: 'Matplotlib',
-                    logo: 'https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg'
-                },
-                {
-                    title: 'Socket.io',
-                    logo: 'https://upload.wikimedia.org/wikipedia/commons/9/96/Socket-io.svg'
-                },
-                {
-                    title: 'Flask',
-                    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeDJSaZ_KS_yCrn77Gc9PUC2VRehAqRBZ27g&s'
-                },
-                {
-                    title: 'Docker',
-                    logo: 'https://cdn.iconscout.com/icon/free/png-128/docker-226091.png'
-                },
-                {
-                    title: 'Git',
-                    logo: 'https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg'
-                },
-                {
-                    title: 'Expo',
-                    logo: 'https://www.vectorlogo.zone/logos/expoio/expoio-icon.svg'
-                },
-                {
-                    title: 'NestJS',
-                    logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg'
-                },
-
-            ]
-        },
-        {
-            text: "Others",
-            arr: [
-                {
-                    title: 'Android Studio',
-                    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Android_Studio_Icon_3.6.svg/512px-Android_Studio_Icon_3.6.svg.png?20210301045217'
-                },
-                {
-                    title: 'VS Code',
-                    logo: 'https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png'
-                },
-                {
-                    title: 'Jira',
-                    logo: 'https://cdn.iconscout.com/icon/free/png-128/jira-3628861-3030001.png'
-                },
-                {
-                    title: 'Figma',
-                    logo: 'https://www.vectorlogo.zone/logos/figma/figma-icon.svg'
-                },
-                {
-                    title: 'Yarn',
-                    logo: 'https://www.vectorlogo.zone/logos/yarnpkg/yarnpkg-icon.svg'
-                },
-                {
-                    title: 'npm',
-                    logo: 'https://www.vectorlogo.zone/logos/npmjs/npmjs-icon.svg'
-                },
-            ]
-        },
+  {
+    text: "Programming / Markup Languages",
+    arr: [
+      { title: 'C', logo: 'https://seeklogo.com/images/C/c-logo-672525892C-seeklogo.com.png' },
+      { title: 'C++', logo: 'https://seeklogo.com/images/C/c-logo-1B1817C041-seeklogo.com.png' },
+      { title: 'C#', logo: 'https://images.seeklogo.com/logo-png/36/1/c-sharp-c-logo-png_seeklogo-363285.png' },
+      { title: 'Python', logo: 'https://www.vectorlogo.zone/logos/python/python-icon.svg' },
+      { title: 'JavaScript', logo: 'https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg' },
+      { title: 'TypeScript', logo: 'https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg' },
+      { title: 'Kotlin', logo: 'https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png' },
+      { title: 'PHP', logo: 'https://www.vectorlogo.zone/logos/php/php-icon.svg' },
+      { title: 'AL (Business Central)', logo: 'https://upload.wikimedia.org/wikipedia/commons/6/64/Microsoft_Dynamics_365_logo.svg' },
     ]
+  },
+  {
+    text: "Databases",
+    arr: [
+      { title: 'MongoDB', logo: 'https://cdn.iconscout.com/icon/free/png-128/mongodb-3521676-2945120.png' },
+      { title: 'SQL', logo: 'https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png' },
+    ]
+  },
+  {
+    text: "UI / Mobile Development",
+    arr: [
+      { title: 'React Native', logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg' },
+      { title: 'Flutter', logo: 'https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg' },
+      { title: 'Compose UI (Kotlin)', logo: 'https://developer.android.com/images/brand/Android_Robot.png' },
+      { title: 'SharedPreferences', logo: 'https://upload.wikimedia.org/wikipedia/commons/3/3c/Preferences_icon.png' },
+    ]
+  },
+  {
+    text: "Libraries / Frameworks / Backend",
+    arr: [
+      { title: 'NodeJS', logo: 'https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg' },
+      { title: 'ExpressJS', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2_RY4COV565Nju7b4ZI5tsPkJQT1imxdFXg&s' },
+      { title: 'NestJS', logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg' },
+      { title: 'Firebase', logo: 'https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg' },
+      { title: 'Mongoose', logo: 'https://avatars.githubusercontent.com/u/7552965?s=200&v=4' },
+      { title: 'Socket.io', logo: 'https://upload.wikimedia.org/wikipedia/commons/9/96/Socket-io.svg' },
+      { title: 'ReactJS', logo: 'https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg' },
+      { title: 'NextJS', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJPpa5L8BQWfwHOIFMaKr5GBWr-Voo7-_OLw&s' },
+    ]
+  },
+  {
+    text: "UI Component Libraries",
+    arr: [
+      { title: 'Material-UI', logo: 'https://mui.com/static/logo.png' },
+      { title: 'Tailwind CSS', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/512px-Tailwind_CSS_Logo.svg.png?20230715030042' },
+      { title: 'Bootstrap', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png' },
+    ]
+  },
+  {
+    text: "Data / Machine Learning",
+    arr: [
+      { title: 'OpenCV', logo: 'https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg' },
+      { title: 'NumPy', logo: 'https://numpy.org/images/logo.svg' },
+      { title: 'Pandas', logo: 'https://pandas.pydata.org/static/img/pandas_white.svg' },
+      { title: 'Matplotlib', logo: 'https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg' },
+    ]
+  },
+  {
+    text: "Tools / IDEs / Others",
+    arr: [
+      { title: 'Android Studio', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Android_Studio_Icon_3.6.svg/512px-Android_Studio_Icon_3.6.svg.png?20210301045217' },
+      { title: 'VS Code', logo: 'https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png' },
+      { title: 'Git', logo: 'https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg' },
+      { title: 'Docker', logo: 'https://cdn.iconscout.com/icon/free/png-128/docker-226091.png' },
+      { title: 'Jira', logo: 'https://cdn.iconscout.com/icon/free/png-128/jira-3628861-3030001.png' },
+      { title: 'Figma', logo: 'https://www.vectorlogo.zone/logos/figma/figma-icon.svg' },
+      { title: 'npm', logo: 'https://www.vectorlogo.zone/logos/npmjs/npmjs-icon.svg' },
+      { title: 'Yarn', logo: 'https://www.vectorlogo.zone/logos/yarnpkg/yarnpkg-icon.svg' },
+    ]
+  },
+];
+
 
     static projects: Array<ITitledListItem> = [
         {

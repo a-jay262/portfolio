@@ -30,42 +30,52 @@ class DynamicValues {
                 {
                     title: "Name",
                     desc: "Alishba Javed",
-                    logo: "https://cdn-icons-png.flaticon.com/128/1077/1077012.png"
+                    logo: "https://cdn-icons-png.flaticon.com/128/1077/1077012.png",
                 },
                 {
-                    title: "Work Experience",
+                    title: "Current Role",
+                    desc: "Software Engineer at Dynasol Technologies",
+                    logo: "https://cdn-icons-png.flaticon.com/128/3281/3281289.png",
+                },
+                {
+                    title: "Previous Experience",
                     desc: "Internship at Havenir Solutions",
-                    logo: "https://cdn-icons-png.flaticon.com/128/3281/3281289.png"
+                    logo: "https://cdn-icons-png.flaticon.com/128/3281/3281289.png",
                 },
                 {
                     title: "Languages",
-                    desc: "English, Hindi, Urdu etc",
-                    logo: "https://cdn-icons-png.flaticon.com/128/3898/3898150.png"
+                    desc: "English, Urdu, Hindi",
+                    logo: "https://cdn-icons-png.flaticon.com/128/3898/3898150.png",
                 },
                 {
                     title: "Nationality",
                     desc: "Pakistani",
-                    logo: "https://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Pakistan.svg"
+                    logo: "https://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Pakistan.svg",
                 },
                 {
-                    title: "Resume(wait)",
-                    desc: "Click the link icon to view/download",
+                    title: "Resume",
+                    desc: "Click the link icon to view or download",
                     link: "https://docs.google.com/document/d/1vRgTCQ-UvzjGXK7s-TR5VpmjHZ7OmSmOs5G69znPhqA/edit?usp=sharing",
-                    logo: "https://cdn-icons-png.flaticon.com/128/909/909212.png"
-                }
-            ]
+                    logo: "https://cdn-icons-png.flaticon.com/128/909/909212.png",
+                },
+            ],
         },
         {
-            text: "Experiences",
+            text: "Experience",
             arr: [
                 {
-                    title: "Havenir Solutions",
-                    desc: "MERN & React-Native Developer",
-                    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNHF8WTyUzN8fteZYxBFDcJ-NVSCs7b-chbQ&s"
+                    title: "Dynasol Technologies",
+                    desc: "Developed and released two production-level apps linked with Microsoft Business Central: a Contact Scanner (live on Play Store) and an Expense Tracker (upcoming). Also built Business Central extensions for workflow automation.",
+                    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNHF8WTyUzN8fteZYxBFDcJ-NVSCs7b-chbQ&s",
                 },
-            ]
-        }
-    ]
+                {
+                    title: "Havenir Solutions",
+                    desc: "Worked on frontend development and backend integration in React Native and MERN stack projects during internship.",
+                    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNHF8WTyUzN8fteZYxBFDcJ-NVSCs7b-chbQ&s",
+                },
+            ],
+        },
+    ];
 
     static skills: Array<ITitledListItem> = [
         {

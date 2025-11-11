@@ -57,7 +57,6 @@ const LeftPart: React.FC<Props> = (props) => {
                 setHovered(false)
                 Amplitude.trackCustomEvent(amplitudeEvents.hovered_on_person_icon, { isHovered })
               }}
-              onClick={onPersonIconClicked}
               onMouseMove={handleMouseMove}
             >
               <AnimatePresence>

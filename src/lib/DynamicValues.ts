@@ -165,6 +165,12 @@ class DynamicValues {
                     logo: "https://is3-ssl.mzstatic.com/image/thumb/Purple127/v4/e4/99/61/e49961f0-fdbd-5e69-9183-a2159415730b/source/512x512bb.jpg", // placeholder until live
                     desc: "A full-featured expense management app for BC employees. Allows submission of expenses and admin approval to post to general journal. Not live yet.",
                     link: "#",
+                },
+                {
+                    title: "Sphinx",
+                    logo: "https://gemini.google.com/share/730440d5f355", // placeholder until live
+                    desc: "A React-native frontend project for a client which is a bus rotes app between the drivers and the students wuth real time pinned locations",
+                    link: "https://expo.dev/accounts/aleeyjay/projects/frontend-mobile-app/builds/07acc8ed-4a1f-45cf-bfb0-bf1ec2649e1a",
                 }
             ]
         }

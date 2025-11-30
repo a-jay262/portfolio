@@ -59,7 +59,7 @@ const LeftPart: React.FC<Props> = (props) => {
               }}
               onMouseMove={handleMouseMove}
             >
-              <AnimatePresence>
+              {/* <AnimatePresence>
                 {isHovered && (
                   <>
                     <motion.div
@@ -108,7 +108,7 @@ const LeftPart: React.FC<Props> = (props) => {
 
                   </>
                 )}
-              </AnimatePresence>
+              </AnimatePresence> */}
 
               <PersonStanding className={cn("w-full h-full ", isHovered ? "glowing-person-icon" : "")} />
             </div>

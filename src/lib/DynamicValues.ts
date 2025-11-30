@@ -168,8 +168,8 @@ class DynamicValues {
                 },
                 {
                     title: "Sphinx",
-                    logo: "https://gemini.google.com/share/730440d5f355", // placeholder until live
-                    desc: "A React-native frontend project for a client which is a bus rotes app between the drivers and the students wuth real time pinned locations",
+                    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNy0bZ6KEr_H45isTnBs1rSanT3zTT_a8_TA&s", // placeholder until live
+                    desc: "A React Native frontend project for a client — a bus routes app connecting drivers and students, featuring real-time pinned locations.",
                     link: "https://expo.dev/accounts/aleeyjay/projects/frontend-mobile-app/builds/07acc8ed-4a1f-45cf-bfb0-bf1ec2649e1a",
                 }
             ]

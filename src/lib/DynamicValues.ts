@@ -11,11 +11,11 @@ class DynamicValues {
         {
             name: "Email",
             link: "mailto:alishbajaved205@gmail.com"
-        },
-        {
-            name: "Phone",
-            link: "tel:03209174561"
         }
+        // {
+        //     name: "Phone",
+        //     link: "tel:032091****"
+        // }
     ]
 
     static about: Array<ITitledListItem> = [
@@ -47,13 +47,13 @@ class DynamicValues {
                     title: "Nationality",
                     desc: "Pakistani",
                     logo: "https://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Pakistan.svg",
-                },
-                {
-                    title: "Resume",
-                    desc: "Click the link icon to view or download",
-                    link: "https://docs.google.com/document/d/1ouctQJ73iSoE-JjMJw_peOk_twx2BbEtt4GI9OkeAiw/edit?usp=sharing",
-                    logo: "https://cdn-icons-png.flaticon.com/128/909/909212.png",
-                },
+                }
+                // {
+                //     title: "Resume",
+                //     desc: "Click the link icon to view or download",
+                //     link: "https://docs.google.com/document/d/1ouctQJ73iSoE-JjMJw_peOk_twx2BbEtt4GI9OkeAiw/edit?usp=sharing",
+                //     logo: "https://cdn-icons-png.flaticon.com/128/909/909212.png",
+                // },
             ],
         },
         {
@@ -455,12 +455,12 @@ class DynamicValues {
         {
             text: "Contact me",
             arr: [
-                {
-                    title: 'WhatsApp ( Recommended )',
-                    logo: 'https://user-images.githubusercontent.com/6418354/155842184-b064bf36-de8e-4317-8f8e-cb7755eed995.png',
-                    link: 'https://api.whatsapp.com/send?phone=923209174561',
-                    desc: "+923209174561"
-                },
+                // {
+                //     title: 'WhatsApp ( Recommended )',
+                //     logo: 'https://user-images.githubusercontent.com/6418354/155842184-b064bf36-de8e-4317-8f8e-cb7755eed995.png',
+                //     link: 'https://api.whatsapp.com/send?phone=923209174561',
+                //     desc: "+92 320 917***",
+                // },
                 {
                     title: 'Email',
                     logo: 'https://cdn3d.iconscout.com/3d/premium/thumb/email-address-4437044-3684811.png',

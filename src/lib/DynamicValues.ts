@@ -214,12 +214,12 @@ class DynamicValues {
                     desc: "A full-featured expense management app for BC employees. Allows submission of expenses and admin approval to post to general journal. Not live yet.",
                     link: "",
                 },
-                {
-                    title: "Sphinx",
-                    logo: sphynix,
-                    desc: "A React Native frontend project for a client — a bus routes app connecting drivers and students, featuring real-time pinned locations.",
-                    link: "https://expo.dev/accounts/aleeyjay/projects/frontend-mobile-app/builds/07acc8ed-4a1f-45cf-bfb0-bf1ec2649e1a",
-                }
+                // {
+                //     title: "Sphinx",
+                //     logo: sphynix,
+                //     desc: "A React Native frontend project for a client — a bus routes app connecting drivers and students, featuring real-time pinned locations.",
+                //     link: "https://expo.dev/accounts/aleeyjay/projects/frontend-mobile-app/builds/07acc8ed-4a1f-45cf-bfb0-bf1ec2649e1a",
+                // }
             ]
         }
         // {

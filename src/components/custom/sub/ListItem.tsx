@@ -60,7 +60,7 @@ const ListItem: React.FC<Props> = (props) => {
     <div className={cn("w-full sm:w-full md:w-1/2 xl:w-1/2 2xl:w-1/3 p-1 relative group block", isLinkString(props.item.link ?? "") ? 'cursor-pointer' : 'cursor-not-allowed')}
       onMouseEnter={() => setHoveredIndex(item.title)}
       onMouseLeave={() => setHoveredIndex(null)}
-      onClick={onCardClicked}
+      onClick={item.link ? onCardClicked : undefined}
     >
       <AnimatePresence>
         {isHovering && (

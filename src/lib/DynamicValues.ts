@@ -1,14 +1,51 @@
 import { ICombinedInformation, IDirectMessageItem, IInitialInformation, ITitledListItem } from "./Models";
 import d365Icon from '@/components/custom/d365.png';
-import cpp from '@/assets/tech/cpp.png';
-import mongodb from '@/assets/tech/mongodb.png';
-// import python from '@/assets/tech/python.png';
-// import java from '@/assets/tech/java.png';
-import node from '@/assets/tech/node.png';
-import compose from '@/assets/tech/compose.png';
-import git from '@/assets/tech/git.png';
-import bc from '@/assets/tech/bc.png';
-// import react from '@/assets/tech/react.png';
+import cpp from '@/assets/tech/languages/cpp.png';
+import mongodb from '@/assets/tech/databases/mongodb.png';
+import python from '@/assets/tech/languages/python.png';
+import node from '@/assets/tech/tools/node.png';
+import compose from '@/assets/tech/mobile/compose.png';
+import git from '@/assets/tech/tools/git.png';
+import bc from '@/assets/tech/languages/bc.png';
+import react from '@/assets/tech/mobile/react.png';
+import user from "@/assets/icon/user.png";
+import job from "@/assets/icon/job.png";
+import experience from "@/assets/icon/experience.png";
+import language from "@/assets/icon/language.png";
+import pakistan from "@/assets/icon/pakistan.png";
+import dynasol from "@/assets/icon/logo/dynasol.png";
+import havenir from "@/assets/icon/logo/havenir.png";
+import flutter from "@/assets/tech/mobile/flutter.png";
+import dart from "@/assets/tech/languages/dart.png";
+import csharp from "@/assets/tech/languages/csharp.png";
+import javascript from "@/assets/tech/languages/javascript.png";
+import typescript from "@/assets/tech/languages/typescript.png";
+import kotlin from "@/assets/tech/languages/kotlin.png";
+import php from "@/assets/tech/languages/php.png";
+import firebase from "@/assets/tech/databases/firebase.png";
+import express from "@/assets/tech/backend/express.png";
+import nest from "@/assets/tech/backend/nest.png";
+import mongoose from "@/assets/tech/backend/mongoose.png";
+import socketio from "@/assets/tech/backend/socketio.png";
+import sql from "@/assets/tech/databases/sql.png";
+import androidstudio from '@/assets/tech/tools/androidstudio.png';
+import vscode from '@/assets/tech/tools/vscode.png';
+import docker from '@/assets/tech/tools/docker.png';
+import npm from '@/assets/tech/tools/npm.png';
+import yarn from '@/assets/tech/tools/yarn.png';
+import figma from '@/assets/tech/tools/figma.png';
+import jira from '@/assets/tech/tools/jira.png';
+import nextjs from '@/assets/tech/backend/nextjs.png';
+import mui from '@/assets/tech/frontend/mui.png';
+import tailwind from '@/assets/tech/frontend/tailwind.png';
+import bootstrap from '@/assets/tech/frontend/bootstrap.png';
+import opencv from '@/assets/tech/ML/opencv.png';
+import numpy from '@/assets/tech/ML/numpy.png';
+import pandas from '@/assets/tech/ML/pandas.png';
+import matplotlib from '@/assets/tech/ML/matplotlib.png';
+import expensetracker from '@/assets/icon/logo/expensetracker.png';
+import sphynix from '@/assets/icon/logo/sphynix.png';
+
 
 
 class DynamicValues {
@@ -19,8 +56,8 @@ class DynamicValues {
 
     static directMessageItems: Array<IDirectMessageItem> = [
         {
-            name: "Email",
-            link: "mailto:alishbajaved205@gmail.com"
+            name: "Email"
+            // link: "mailto:alishbajaved205@gmail.com"
         }
         // {
         //     name: "Phone",
@@ -36,27 +73,27 @@ class DynamicValues {
                 {
                     title: "Name",
                     desc: "Alishba Javed",
-                    logo: "https://cdn-icons-png.flaticon.com/128/1077/1077012.png",
+                    logo: user,
                 },
                 {
                     title: "Current Role",
                     desc: "Software Engineer at Dynasol Technologies",
-                    logo: "https://cdn-icons-png.flaticon.com/128/3281/3281289.png",
+                    logo: job,
                 },
                 {
                     title: "Previous Experience",
                     desc: "Havenir Solutions",
-                    logo: "https://cdn-icons-png.flaticon.com/128/3281/3281289.png",
+                    logo: experience,
                 },
                 {
                     title: "Languages",
                     desc: "English, Urdu",
-                    logo: "https://cdn-icons-png.flaticon.com/128/3898/3898150.png",
+                    logo: language,
                 },
                 {
                     title: "Nationality",
                     desc: "Pakistani",
-                    logo: "https://upload.wikimedia.org/wikipedia/commons/3/32/Flag_of_Pakistan.svg",
+                    logo: pakistan,
                 }
                 // {
                 //     title: "Resume",
@@ -72,12 +109,12 @@ class DynamicValues {
                 {
                     title: "Dynasol Technologies",
                     desc: "Developed and released two production-level apps linked with Microsoft Business Central: a Contact Scanner (live on Play Store) and an Expense Tracker (upcoming). Also built Business Central extensions for workflow automation.",
-                    logo: "https://dynasol.tech/wp-content/uploads/2021/03/hd_big.png",
+                    logo: dynasol,
                 },
                 {
                     title: "Havenir Solutions",
                     desc: "Worked on frontend and backend development in React Native and MERN stack. Developed a full-stack Recipe app and integrated it with an Expense Tracker, handling API integration and database management.",
-                    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNHF8WTyUzN8fteZYxBFDcJ-NVSCs7b-chbQ&s",
+                    logo: havenir,
                 }
 
             ],
@@ -90,12 +127,13 @@ class DynamicValues {
     arr: [
 
       { title: 'C++', logo: cpp },
-      { title: 'C#', logo: 'https://images.seeklogo.com/logo-png/36/1/c-sharp-c-logo-png_seeklogo-363285.png' },
-      { title: 'Python', logo: 'https://www.vectorlogo.zone/logos/python/python-icon.svg' },
-      { title: 'JavaScript', logo: 'https://www.vectorlogo.zone/logos/javascript/javascript-icon.svg' },
-      { title: 'TypeScript', logo: 'https://www.vectorlogo.zone/logos/typescriptlang/typescriptlang-icon.svg' },
-      { title: 'Kotlin', logo: 'https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png' },
-      { title: 'PHP', logo: 'https://www.vectorlogo.zone/logos/php/php-icon.svg' },
+      { title: 'C#', logo: csharp },
+      { title: 'Python', logo: python },
+      { title: 'JavaScript', logo: javascript },
+      { title: 'TypeScript', logo: typescript },
+      { title: 'Kotlin', logo: kotlin },
+      { title: 'PHP', logo: php },
+      { title: 'Dart', logo: dart },
       { title: 'AL (Business Central)', logo: bc},
     ]
   },
@@ -103,14 +141,14 @@ class DynamicValues {
     text: "Databases",
     arr: [
       { title: 'MongoDB', logo: mongodb },
-      { title: 'SQL', logo: 'https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png' },
+      { title: 'SQL', logo: sql },
     ]
   },
   {
     text: "UI / Mobile Development",
     arr: [
-      { title: 'React Native', logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg' },
-      { title: 'Flutter', logo: 'https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg' },
+      { title: 'React Native', logo: react },
+      { title: 'Flutter', logo: flutter },
       { title: 'Compose UI (Kotlin)', logo: compose}
     ]
   },
@@ -118,43 +156,43 @@ class DynamicValues {
     text: "Libraries / Frameworks / Backend",
     arr: [
       { title: 'NodeJS', logo: node },
-      { title: 'ExpressJS', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2_RY4COV565Nju7b4ZI5tsPkJQT1imxdFXg&s' },
-      { title: 'NestJS', logo: 'https://upload.wikimedia.org/wikipedia/commons/a/a8/NestJS.svg' },
-      { title: 'Firebase', logo: 'https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg' },
-      { title: 'Mongoose', logo: 'https://avatars.githubusercontent.com/u/7552965?s=200&v=4' },
-      { title: 'Socket.io', logo: 'https://upload.wikimedia.org/wikipedia/commons/9/96/Socket-io.svg' },
-      { title: 'ReactJS', logo: 'https://www.vectorlogo.zone/logos/reactjs/reactjs-icon.svg' },
-      { title: 'NextJS', logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJPpa5L8BQWfwHOIFMaKr5GBWr-Voo7-_OLw&s' },
+      { title: 'ExpressJS', logo: express },
+      { title: 'NestJS', logo: nest },
+      { title: 'Firebase', logo: firebase },
+      { title: 'Mongoose', logo: mongoose },
+      { title: 'Socket.io', logo: socketio },
+      { title: 'ReactJS', logo: react },
+      { title: 'NextJS', logo: nextjs },
     ]
   },
   {
     text: "UI Component Libraries",
     arr: [
-      { title: 'Material-UI', logo: 'https://mui.com/static/logo.png' },
-      { title: 'Tailwind CSS', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/512px-Tailwind_CSS_Logo.svg.png?20230715030042' },
-      { title: 'Bootstrap', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png' },
+      { title: 'Material-UI', logo: mui },
+      { title: 'Tailwind CSS', logo: tailwind },
+      { title: 'Bootstrap', logo: bootstrap },
     ]
   },
   {
     text: "Data / Machine Learning",
     arr: [
-      { title: 'OpenCV', logo: 'https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg' },
-      { title: 'NumPy', logo: 'https://numpy.org/images/logo.svg' },
-      { title: 'Pandas', logo: 'https://pandas.pydata.org/static/img/pandas_white.svg' },
-      { title: 'Matplotlib', logo: 'https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg' },
+      { title: 'OpenCV', logo: opencv},
+      { title: 'NumPy', logo: numpy },
+      { title: 'Pandas', logo: pandas },
+      { title: 'Matplotlib', logo: matplotlib },
     ]
   },
   {
     text: "Tools / IDEs / Others",
     arr: [
-      { title: 'Android Studio', logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Android_Studio_Icon_3.6.svg/512px-Android_Studio_Icon_3.6.svg.png?20210301045217' },
-      { title: 'VS Code', logo: 'https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png' },
+      { title: 'Android Studio', logo: androidstudio },
+      { title: 'VS Code', logo: vscode },
       { title: 'Git', logo: git },
-      { title: 'Docker', logo: 'https://cdn.iconscout.com/icon/free/png-128/docker-226091.png' },
-      { title: 'Jira', logo: 'https://cdn.iconscout.com/icon/free/png-128/jira-3628861-3030001.png' },
-      { title: 'Figma', logo: 'https://www.vectorlogo.zone/logos/figma/figma-icon.svg' },
-      { title: 'npm', logo: 'https://www.vectorlogo.zone/logos/npmjs/npmjs-icon.svg' },
-      { title: 'Yarn', logo: 'https://www.vectorlogo.zone/logos/yarnpkg/yarnpkg-icon.svg' },
+      { title: 'Docker', logo: docker },
+      { title: 'Jira', logo: jira },
+      { title: 'Figma', logo: figma },
+      { title: 'npm', logo: npm },
+      { title: 'Yarn', logo: yarn },
     ]
   },
 ];
@@ -172,13 +210,13 @@ class DynamicValues {
                 },
                 {
                     title: "BC Expense Management App",
-                    logo: "https://is3-ssl.mzstatic.com/image/thumb/Purple127/v4/e4/99/61/e49961f0-fdbd-5e69-9183-a2159415730b/source/512x512bb.jpg", // placeholder until live
+                    logo: expensetracker,
                     desc: "A full-featured expense management app for BC employees. Allows submission of expenses and admin approval to post to general journal. Not live yet.",
-                    link: "#",
+                    link: "",
                 },
                 {
                     title: "Sphinx",
-                    logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNy0bZ6KEr_H45isTnBs1rSanT3zTT_a8_TA&s", // placeholder until live
+                    logo: sphynix,
                     desc: "A React Native frontend project for a client — a bus routes app connecting drivers and students, featuring real-time pinned locations.",
                     link: "https://expo.dev/accounts/aleeyjay/projects/frontend-mobile-app/builds/07acc8ed-4a1f-45cf-bfb0-bf1ec2649e1a",
                 }

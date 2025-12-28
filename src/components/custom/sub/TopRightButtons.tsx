@@ -208,12 +208,13 @@ const TopRightButtons: React.FC<Props> = () => {
           <DropdownMenuContent align="end">
             {combinedInformation.directMessageItems.map((item) => {
               const onDropdownItemClicked = () => {
-                Amplitude.trackCustomEvent(amplitudeEvents.clicked_direct_message_item, { link: item.link });
+                if (!item.link) return; 
+                Amplitude.trackCustomEvent(amplitudeEvents.clicked_direct_message_item, { link: item.link ?? "" });
                 window.open(item.link, "_blank");
               };
 
               return (
-                <DropdownMenuItem key={item.name} onClick={onDropdownItemClicked}>
+                <DropdownMenuItem key={item.name} disabled={!item.link} onClick={onDropdownItemClicked}>
                   {item.name}
                 </DropdownMenuItem>
               );

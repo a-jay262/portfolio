@@ -1,6 +1,6 @@
 export interface IDirectMessageItem {
     name: string
-    link: string
+    link?: string
 }
 
 export interface IListItem {

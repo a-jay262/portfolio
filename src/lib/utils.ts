@@ -49,16 +49,16 @@ export const getRandomLink = (): string | null => {
 
   // Collect links from directMessageItems
   combinedInformation.directMessageItems.forEach(item => {
-    if (isLinkString(item.link)) {
-      allLinks.push(item.link);
+    if (isLinkString(item.link?? "")) {
+      allLinks.push(item.link?? "");
     }
   });
 
   // Helper function to collect links recursively from nested items
   const collectLinks = (items: any[]) => {
     items.forEach(item => {
-      if (item.link && isLinkString(item.link)) {
-        allLinks.push(item.link);
+      if (item.link && isLinkString(item.link?? "")) {
+        allLinks.push(item.link?? "");
       }
       if (item.arr) {
         collectLinks(item.arr);
